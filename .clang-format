@@ -1,0 +1,39 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnSingleLine: false
+AllowShortLoopsOnSingleLine: false
+AllowShortFunctionsOnSingleLine: Inline
+BinPackArguments: false
+BinPackParameters: false
+ColumnLimit: 100
+PointerAlignment: Left
+ReferenceAlignment: Left
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+NamespaceIndentation: All
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^<Q'
+    Priority: 1
+    SortPriority: 0
+  - Regex: '^<'
+    Priority: 2
+    SortPriority: 0
+  - Regex: '^"core/'
+    Priority: 3
+    SortPriority: 0
+  - Regex: '^"launcher/'
+    Priority: 4
+    SortPriority: 0
+  - Regex: '^"ui/'
+    Priority: 5
+    SortPriority: 0
+  - Regex: '^"'
+    Priority: 6
+    SortPriority: 0
+SortIncludes: true
+SortUsingDeclarations: true

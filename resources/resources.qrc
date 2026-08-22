@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="version.json">../CMakeLists.txt</file>
+        <file alias="images/applogo.png">../applogo.png</file>
+        <file alias="images/background.png">../src/ui/background.png</file>
+    </qresource>
+</RCC>

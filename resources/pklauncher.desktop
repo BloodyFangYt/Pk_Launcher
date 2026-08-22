@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=PK Launcher
+Comment=Minecraft Launcher
+Exec=pklauncher
+Icon=pklauncher
+Categories=Game;
+Terminal=false
+StartupNotify=true

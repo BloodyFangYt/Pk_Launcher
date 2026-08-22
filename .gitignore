@@ -1,0 +1,55 @@
+# Build directories
+build/
+build-*/
+*.o
+*.obj
+*.moc.cpp
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Qt
+*.qm
+*.ts
+*.qrc.cpp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution
+dist/
+*.tar.gz
+*.zip
+*.dmg
+*.exe
+*.msi
+*.AppImage
+*.deb
+*.rpm
+
+# Vcpkg
+vcpkg/
+vcpkg_installed/
+
+# Conan
+conanbuildinfo.txt
+conaninfo.txt

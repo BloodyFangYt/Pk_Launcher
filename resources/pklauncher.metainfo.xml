@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>dev.pklauncher.PkLauncher</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>PK Launcher</name>
+  <summary>Minecraft Launcher</summary>
+  <description>
+    <p>
+      A modern, cross-platform Minecraft launcher built with C++17 and Qt 6.
+      Features include version management, Java runtime management, instance system,
+      and Microsoft OAuth authentication.
+    </p>
+  </description>
+  <url type="homepage">https://pklauncher.dev</url>
+  <provides>
+    <binary>PkLauncher</binary>
+  </provides>
+  <categories>
+    <category>Game</category>
+  </categories>
+  <launchable type="desktop-id">pklauncher.desktop</launchable>
+</component>
